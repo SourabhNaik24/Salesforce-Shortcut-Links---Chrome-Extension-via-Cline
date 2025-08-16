@@ -2,6 +2,10 @@
 
 A simple and efficient Chrome extension that provides quick access to commonly used Salesforce setup pages through a floating shortcut menu.
 
+
+https://github.com/user-attachments/assets/2056f10c-5f53-436d-858e-049ea0528996
+
+
 ## Features
 
 - **Floating Icon**: A lightning bolt icon appears in the bottom-left corner of Salesforce pages
