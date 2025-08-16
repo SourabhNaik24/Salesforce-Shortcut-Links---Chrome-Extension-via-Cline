@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Salesforce Shortcuts",
+  "version": "1.0",
+  "description": "Quick access to commonly used Salesforce setup pages",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.lightning.force.com/*",
+        "*://*.salesforce.com/*",
+        "*://*.my.salesforce.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
